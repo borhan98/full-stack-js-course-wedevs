@@ -84,6 +84,30 @@ function testBlockScope() {
     if (true) {
         let insideVariable = "This is an variable inside a block";
     }
-    console.log(insideVariable);
+    console.log(insideVariable); // RefferenceError: insideVariable is not defined
 }
-testBlockScope(); // RefferenceError: insideVariable is not defined
+testBlockScope();
+
+
+/*-------------------------------------------------------------
+                        Task-4
+---------------------------------------------------------------*/
+(function () {
+    console.log("This console is from IIFE function.");
+})();
+
+
+(function (x, y) {
+    console.log(x + y);
+})(5, 10);
+
+
+(function () {
+    let val = "This is a variable inside the IIFE function";
+
+    function printMessage() {
+        console.log(`${val} and this variable is called from an inner function inside IIFE function which function is available only inside the IIFE function.`);
+    }
+
+    printMessage();
+})();
