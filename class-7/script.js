@@ -54,8 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const res = await fetch('https://jsonplaceholder.typicode.com/posts');
             const data = await res.json();
-            const firstTenData = data.slice(0, 10);
-            firstTenData.map((val, index) => {
+            data.slice(0, 10).map((val, index) => {
                 console.log(`Post no: ${index + 1}`, val);
             })
         } catch (err) {
