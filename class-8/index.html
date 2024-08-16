@@ -14,21 +14,44 @@
     <div class="mt--20">
         <div class="container">
             <div class="row">
-                <div class="col-6 mx-auto">
+                <!-- Start todo list area -->
+                <div class="col-lg-6">
                     <div class="todo-list-area">
                         <h2 class="text-center mb--10">ToDo List</h2>
-                        <form class="input-form mb--10" id="task-input-form">
+                        <form class="input-form mb--6" id="task-input-form">
                             <input type="text" class="input-field" id="task-input-field" placeholder="Enter your task here...">
                             <button class="submit-btn add-task-btn" type="submit">Add Task</button>
                         </form>
+                        <div class="devider"></div>
                         <ul class="todo-list">
                             <!-- content will add dynamically -->
                         </ul>
                     </div>
-                    <div class="weather-display-area"></div>
                 </div>
+                <!-- End todo list area -->
+                
+                <!-- Start weather display area -->
+                <div class="col-lg-6">
+                    <div class="weather-display-area">
+                        <h2 class="text-center mb--10">Search to know weather</h2>
+                        <form class="input-form mb--6" id="city-input-form">
+                            <input type="text" class="input-field" id="city-input-field" placeholder="Enter your city name...">
+                            <button class="submit-btn city-search-btn" type="submit">Search</button>
+                        </form>
+                        <div class="devider"></div>
+                        <div class="weather-display-content" id="weather-display-content">
+                            <!-- content will add dynamically -->
+                        </div>
+                    </div>
+                </div>
+                <!-- End weather display area -->
             </div>
         </div>
+    </div>
+
+    <div class="toast-message">
+        <span class="icon"><i class="fa-solid fa-exclamation"></i></span>
+        <span>You didn't input anything..!!</span>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

@@ -30,12 +30,28 @@ input:focus {
   margin-bottom: 0.25rem;
 }
 
+.pt--1 {
+  padding-top: 0.25rem;
+}
+
+.pb--1 {
+  padding-bottom: 0.25rem;
+}
+
 .mt--2 {
   margin-top: 0.5rem;
 }
 
 .mb--2 {
   margin-bottom: 0.5rem;
+}
+
+.pt--2 {
+  padding-top: 0.5rem;
+}
+
+.pb--2 {
+  padding-bottom: 0.5rem;
 }
 
 .mt--3 {
@@ -46,12 +62,28 @@ input:focus {
   margin-bottom: 0.75rem;
 }
 
+.pt--3 {
+  padding-top: 0.75rem;
+}
+
+.pb--3 {
+  padding-bottom: 0.75rem;
+}
+
 .mt--4 {
   margin-top: 1rem;
 }
 
 .mb--4 {
   margin-bottom: 1rem;
+}
+
+.pt--4 {
+  padding-top: 1rem;
+}
+
+.pb--4 {
+  padding-bottom: 1rem;
 }
 
 .mt--5 {
@@ -62,12 +94,28 @@ input:focus {
   margin-bottom: 1.25rem;
 }
 
+.pt--5 {
+  padding-top: 1.25rem;
+}
+
+.pb--5 {
+  padding-bottom: 1.25rem;
+}
+
 .mt--6 {
   margin-top: 1.5rem;
 }
 
 .mb--6 {
   margin-bottom: 1.5rem;
+}
+
+.pt--6 {
+  padding-top: 1.5rem;
+}
+
+.pb--6 {
+  padding-bottom: 1.5rem;
 }
 
 .mt--7 {
@@ -78,12 +126,28 @@ input:focus {
   margin-bottom: 1.75rem;
 }
 
+.pt--7 {
+  padding-top: 1.75rem;
+}
+
+.pb--7 {
+  padding-bottom: 1.75rem;
+}
+
 .mt--8 {
   margin-top: 2rem;
 }
 
 .mb--8 {
   margin-bottom: 2rem;
+}
+
+.pt--8 {
+  padding-top: 2rem;
+}
+
+.pb--8 {
+  padding-bottom: 2rem;
 }
 
 .mt--9 {
@@ -94,12 +158,28 @@ input:focus {
   margin-bottom: 2.25rem;
 }
 
+.pt--9 {
+  padding-top: 2.25rem;
+}
+
+.pb--9 {
+  padding-bottom: 2.25rem;
+}
+
 .mt--10 {
   margin-top: 2.5rem;
 }
 
 .mb--10 {
   margin-bottom: 2.5rem;
+}
+
+.pt--10 {
+  padding-top: 2.5rem;
+}
+
+.pb--10 {
+  padding-bottom: 2.5rem;
 }
 
 .mt--11 {
@@ -110,12 +190,28 @@ input:focus {
   margin-bottom: 2.75rem;
 }
 
+.pt--11 {
+  padding-top: 2.75rem;
+}
+
+.pb--11 {
+  padding-bottom: 2.75rem;
+}
+
 .mt--12 {
   margin-top: 3rem;
 }
 
 .mb--12 {
   margin-bottom: 3rem;
+}
+
+.pt--12 {
+  padding-top: 3rem;
+}
+
+.pb--12 {
+  padding-bottom: 3rem;
 }
 
 .mt--13 {
@@ -126,12 +222,28 @@ input:focus {
   margin-bottom: 3.25rem;
 }
 
+.pt--13 {
+  padding-top: 3.25rem;
+}
+
+.pb--13 {
+  padding-bottom: 3.25rem;
+}
+
 .mt--14 {
   margin-top: 3.5rem;
 }
 
 .mb--14 {
   margin-bottom: 3.5rem;
+}
+
+.pt--14 {
+  padding-top: 3.5rem;
+}
+
+.pb--14 {
+  padding-bottom: 3.5rem;
 }
 
 .mt--15 {
@@ -142,12 +254,28 @@ input:focus {
   margin-bottom: 3.75rem;
 }
 
+.pt--15 {
+  padding-top: 3.75rem;
+}
+
+.pb--15 {
+  padding-bottom: 3.75rem;
+}
+
 .mt--16 {
   margin-top: 4rem;
 }
 
 .mb--16 {
   margin-bottom: 4rem;
+}
+
+.pt--16 {
+  padding-top: 4rem;
+}
+
+.pb--16 {
+  padding-bottom: 4rem;
 }
 
 .mt--17 {
@@ -158,12 +286,28 @@ input:focus {
   margin-bottom: 4.25rem;
 }
 
+.pt--17 {
+  padding-top: 4.25rem;
+}
+
+.pb--17 {
+  padding-bottom: 4.25rem;
+}
+
 .mt--18 {
   margin-top: 4.5rem;
 }
 
 .mb--18 {
   margin-bottom: 4.5rem;
+}
+
+.pt--18 {
+  padding-top: 4.5rem;
+}
+
+.pb--18 {
+  padding-bottom: 4.5rem;
 }
 
 .mt--19 {
@@ -174,12 +318,28 @@ input:focus {
   margin-bottom: 4.75rem;
 }
 
+.pt--19 {
+  padding-top: 4.75rem;
+}
+
+.pb--19 {
+  padding-bottom: 4.75rem;
+}
+
 .mt--20 {
   margin-top: 5rem;
 }
 
 .mb--20 {
   margin-bottom: 5rem;
+}
+
+.pt--20 {
+  padding-top: 5rem;
+}
+
+.pb--20 {
+  padding-bottom: 5rem;
 }
 
 .input-form {
@@ -201,7 +361,8 @@ input:focus {
 }
 .input-form .input-field:focus {
   outline: none;
-  border-color: rgba(128, 0, 128, 0.1803921569);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.2);
 }
 .input-form .submit-btn {
   display: inline-block;
@@ -220,20 +381,40 @@ input:focus {
   scale: 0.95;
 }
 
+.devider {
+  position: relative;
+  height: 2px;
+}
+.devider::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
 .todo-list {
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  border-radius: 4px;
+  margin-top: 24px;
 }
 .todo-list li {
   display: flex;
   gap: 12px;
   align-items: center;
   justify-content: space-between;
-  margin: 0 16px;
+  margin: 0;
   padding: 16px 0;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+.todo-list li:first-child {
+  border-radius: 4px 4px 0 0;
+}
+.todo-list li:last-child {
+  border-radius: 0 0 4px 4px;
 }
 .todo-list li + li {
-  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  border-top: none;
+  border-radius: 0;
 }
 .todo-list li p {
   flex-grow: 1;
@@ -242,6 +423,7 @@ input:focus {
   display: flex;
   align-items: center;
   gap: 12px;
+  margin-right: 12px;
 }
 .todo-list .options button {
   border: 2px solid rgba(255, 255, 255, 0.1);
@@ -268,6 +450,7 @@ input:focus {
 
 .mark-btn {
   position: relative;
+  margin-left: 12px;
 }
 .mark-btn::after {
   content: "Mark as complete";
@@ -308,6 +491,122 @@ input:focus {
 }
 .mark-btn:hover:before {
   bottom: calc(100% + 8px);
+}
+
+.weather-display-area .weather-display-content {
+  background: url(../images/bg-img.png);
+  background-size: cover;
+  margin-top: 24px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.weather-display-area .weather-display-content .weather-display-card {
+  padding: 56px;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  margin: 0 auto;
+  text-align: center;
+  color: #fbfbfb;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+.weather-display-area .weather-display-content .weather-display-card .sun-time {
+  display: inline-block;
+  font-size: 0.725rem;
+  height: 30px;
+  line-height: 28px;
+  background: rgba(0, 0, 0, 0.2);
+  width: fit-content;
+  padding: 0 24px;
+  border-radius: 4px;
+  position: absolute;
+  top: 12px;
+}
+.weather-display-area .weather-display-content .weather-display-card .sun-time.sunrise {
+  left: 12px;
+}
+.weather-display-area .weather-display-content .weather-display-card .sun-time.sunset {
+  right: 12px;
+}
+.weather-display-area .weather-display-content .weather-display-card .city-name {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+
+.temperature-wrap .temperature {
+  font-size: 4rem;
+  display: block;
+  line-height: 1;
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+.temperature-wrap .temperature .weather-description {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2px 12px 4px;
+  font-size: 1rem;
+  line-height: 1.5;
+  white-space: nowrap;
+  text-transform: capitalize;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 80%;
+  left: 105%;
+}
+.temperature-wrap .temp-feel {
+  display: inline-block;
+  margin: 16px 0;
+}
+
+.temp-meta {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+.temp-meta li {
+  background: rgba(255, 39, 39, 0.06);
+  backdrop-filter: blur(20px);
+  padding: 12px;
+  min-width: 132px;
+  border-radius: 8px;
+}
+@media screen and (max-width: 767px) {
+  .temp-meta li {
+    min-width: 104px;
+  }
+}
+
+.toast-message {
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 16px;
+  height: 36px;
+  border-radius: 24px;
+  line-height: 36px;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+.toast-message.show-toast {
+  top: 4%;
+}
+.toast-message .icon {
+  background: #a50909;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
