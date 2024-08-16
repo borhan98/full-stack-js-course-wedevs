@@ -1,3 +1,1 @@
-## Here is the 'ToDo List' link
-
-- [Click here to visit "Todo List"](https://basic-todo-list-wd.netlify.app/)
+- [Click here to visit "Todo List"](https://todo-weather-display.netlify.app/)
