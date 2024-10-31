@@ -32,9 +32,16 @@ body {
 }
 
 .input {
-    outline: solid 2px burlywood;
-    margin: 2px;
     width: 480px;
+    border: 2px solid transparent;
+    outline: none;
+    padding: 16px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: .3s linear;
+}
+.input:focus {
+    border-color: #DDDDDD;
 }
 
 .actions {
